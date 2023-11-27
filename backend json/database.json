@@ -99,6 +99,13 @@
       "description": "Pokemon Salameche",
       "image": "/images/salameche.jpg",
       "price": "25"
+    },
+    {
+      "id": "6564cb2758c7b5a7aac79d16",
+      "name": "test",
+      "description": "test",
+      "price": "5",
+      "image": "https://galaxie-peluche.com/cdn/shop/products/gros-nounours-marron-pooky.jpg?v=1652075112"
     }
   ]
 }

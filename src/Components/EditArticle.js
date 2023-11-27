@@ -39,7 +39,7 @@ function EditArticle() {
         axios.put("http://localhost:3001/catalog/" + id, newProduct)
             .then(res => {
                 console.log(res);
-                navigate("/articles");
+                navigate("/");
             })
             .catch(error => {
                 console.log(error);
