@@ -1,11 +1,11 @@
 {
   "catalog": [
     {
-      "id": "1",
-      "name": "Nounours marron 2",
-      "description": "un joli nounours marron avec un foulard 2é",
-      "price": "352",
-      "image": "https://galaxie-peluche.com/cdn/shop/products/nounours-geant-marron.jpg?v=1652027452"
+      "name": "Nounours marron",
+      "description": "un joli nounours marron avec un foulard",
+      "image": "images/nounours1.jpg",
+      "price": "35",
+      "id": "1"
     },
     {
       "name": "Nounours blanc",
@@ -15,11 +15,11 @@
       "id": "2"
     },
     {
-      "id": "3",
-      "name": "Peluche Ane gris 2",
-      "description": "joli petit ane gris 2",
-      "price": "151",
-      "image": "https://galaxie-peluche.com/cdn/shop/products/gros-nounours-marron-pooky.jpg?v=1652075112"
+      "name": "Peluche Ane gris ",
+      "description": "joli petit ane gris ",
+      "price": "15",
+      "image": "images/ane.jpg",
+      "id": "3"
     },
     {
       "name": "Pokemon Bulbizarre",
@@ -32,80 +32,85 @@
       "name": "Cochon rose",
       "description": "un petit cochon rose tout frippé",
       "image": "/images/cochon.jpg",
-      "price": "35"
+      "price": "35",
+      "id": "5"
     },
     {
       "name": "Donkey Kong",
       "description": "Le célèbre Donkey Kong",
       "image": "/images/donkekong.jpg",
-      "price": "25"
+      "price": "25",
+      "id": "6"
     },
     {
       "name": "Girafe",
       "description": "Petite girafe assise",
       "image": "/images/girafe.jpg",
-      "price": "23"
+      "price": "23",
+      "id": "7"
     },
     {
       "name": "Peluche Hibou",
       "description": "Un hibou tout en plume.",
       "image": "/images/hibou.jpg",
-      "price": "22"
+      "price": "22",
+      "id": "8"
     },
     {
       "name": "Link",
       "description": "Link le héros de la série Zelda.",
       "image": "/images/link.jpg",
-      "price": "25"
+      "price": "25",
+      "id": "9"
     },
     {
       "name": "Nounours crème",
       "description": "Il est pas mignon avec ses grosses papattes ?",
       "image": "/images/nounours3.jpg",
-      "price": "35"
+      "price": "35",
+      "id": "10"
     },
     {
       "name": "Panda",
       "description": "Un bon gros panda joufflu",
       "image": "/images/panda.jpg",
-      "price": "35"
+      "price": "35",
+      "id": "11"
     },
     {
       "name": "Pokemon Pikachu",
       "description": "Le plus célèbre des pokemons.",
       "image": "/images/pikachu.jpg",
-      "price": "25"
+      "price": "25",
+      "id": "12"
     },
     {
+      "id": "13",
       "name": "Peluche Poule",
       "description": "Une idée originale de peluche",
-      "image": "/images/poule.jpg",
-      "price": "27"
+      "price": "26",
+      "image": "/images/poule.jpg"
     },
     {
       "name": "Renard",
       "description": "Un renard très sympathique.",
       "image": "/images/renard.jpg",
-      "price": "45"
+      "price": "45",
+      "id": "14"
     },
     {
       "name": "Pokemon Riolu",
       "description": "Pokemon Riolu",
       "image": "/images/riolu.jpg",
-      "price": "25"
+      "price": "25",
+      "id": "15"
     },
     {
       "name": "Pokemon Salameche",
       "description": "Pokemon Salameche",
       "image": "/images/salameche.jpg",
-      "price": "25"
-    },
-    {
-      "id": "6564cb2758c7b5a7aac79d16",
-      "name": "test",
-      "description": "test",
-      "price": "5",
-      "image": "https://galaxie-peluche.com/cdn/shop/products/gros-nounours-marron-pooky.jpg?v=1652075112"
+      "price": "25",
+      "id": "16"
     }
   ]
 }

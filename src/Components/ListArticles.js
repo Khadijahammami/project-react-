@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import ElementsArticle from './ElementsArticle';
+import { BsCart } from "react-icons/bs";
+import { Link } from 'react-router-dom';
 
-function ListArticles() {
+function ListArticles({setPanier, panier}) {
     const [articles, setArticles] = useState([]);
     const [allArticles, setAllArticles] = useState([]);
     const [search, setSearch] = useState("");
@@ -39,11 +41,14 @@ function ListArticles() {
 
     return (
         <div>
+            <Link to={'/panier'} className='position-fixed bg-info px-4 py-2 rounded-end d-flex justify-content-center align-items-center h4 text-decoration-none'>
+                <BsCart size={40}/> ({Object.keys(panier).length})
+            </Link>
             <h2 className='text-center my-3'>Liste des articles</h2>
             <form className="d-flex w-25 mx-auto mb-5" role="search">
                 <input value={search} onChange={handleChange} className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
             </form>
-            <ElementsArticle articles={articles} deleteArticle={deleteArticle} />
+            <ElementsArticle articles={articles} deleteArticle={deleteArticle} setPanier={setPanier} panier={panier} />
         </div>
     );
 }

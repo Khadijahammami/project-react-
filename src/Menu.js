@@ -44,6 +44,9 @@ function Menu() {
             <li className="nav-item">
               <Link className="nav-link" to="/addArticle">Ajout articles</Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/panier">Mon panier</Link>
+            </li>
           </ul>
           {!isLoggedIn
             ? (
